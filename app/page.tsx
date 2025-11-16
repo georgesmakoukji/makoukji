@@ -51,17 +51,63 @@ export default function Home() {
             </div>
 
             {/* Right Visual */}
-            <div className="relative h-[500px] lg:h-[600px] rounded-lg overflow-hidden bg-gradient-to-br from-[#2596be] to-[#1e7a9a] shadow-xl">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center text-white space-y-6 p-8">
-                  <div className="w-32 h-32 mx-auto bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg">
-                    <svg className="w-20 h-20 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <div className="relative h-[500px] lg:h-[600px] rounded-lg overflow-hidden shadow-xl">
+              <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-white to-gray-50">
+                {/* Decorative geometric pattern */}
+                <div className="absolute inset-0 opacity-5">
+                  <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2596be" strokeWidth="1"/>
+                      </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#grid)" />
+                  </svg>
+                </div>
+                
+                {/* Car silhouette illustration */}
+                <div className="absolute inset-0 flex items-center justify-center p-8">
+                  <div className="relative w-full max-w-md">
+                    {/* Car outline */}
+                    <svg viewBox="0 0 400 200" className="w-full h-auto">
+                      {/* Car body */}
+                      <path
+                        d="M 50 120 Q 50 100 80 100 L 120 100 L 140 80 L 260 80 L 280 100 L 320 100 Q 350 100 350 120 L 350 160 Q 350 180 320 180 L 280 180 L 280 200 L 260 200 L 260 180 L 140 180 L 140 200 L 120 200 L 120 180 L 80 180 Q 50 180 50 160 Z"
+                        fill="none"
+                        stroke="#2596be"
+                        strokeWidth="3"
+                        className="drop-shadow-lg"
+                      />
+                      {/* Windshield */}
+                      <path
+                        d="M 120 100 L 140 80 L 260 80 L 280 100"
+                        fill="rgba(37, 150, 190, 0.1)"
+                        stroke="#2596be"
+                        strokeWidth="2"
+                      />
+                      {/* Side windows */}
+                      <rect x="150" y="100" width="50" height="60" fill="rgba(37, 150, 190, 0.1)" stroke="#2596be" strokeWidth="2" rx="2" />
+                      <rect x="210" y="100" width="50" height="60" fill="rgba(37, 150, 190, 0.1)" stroke="#2596be" strokeWidth="2" rx="2" />
+                      {/* Wheels */}
+                      <circle cx="120" cy="180" r="20" fill="#1e7a9a" opacity="0.3" />
+                      <circle cx="280" cy="180" r="20" fill="#1e7a9a" opacity="0.3" />
                     </svg>
-                  </div>
-                  <div className="space-y-2">
-                    <p className="text-4xl font-bold">60+ Years</p>
-                    <p className="text-xl text-gray-200">of Excellence</p>
+                    
+                    {/* Floating badge */}
+                    <div className="absolute -top-4 -right-4 bg-[#2596be] text-white rounded-full w-24 h-24 flex flex-col items-center justify-center shadow-xl transform rotate-12">
+                      <span className="text-2xl font-bold">60+</span>
+                      <span className="text-xs">Years</span>
+                    </div>
+                    
+                    {/* Quality badge */}
+                    <div className="absolute -bottom-4 -left-4 bg-white border-4 border-[#2596be] rounded-lg px-4 py-2 shadow-xl">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-6 h-6 text-[#2596be]" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                        <span className="font-bold text-gray-900">Quality</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
