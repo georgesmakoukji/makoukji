@@ -18,9 +18,9 @@ export default function Home() {
                 <Image 
                   src="/logo-nobackground.png" 
                   alt="Makoukji Auto Glass Logo" 
-                  width={280} 
-                  height={84}
-                  className="h-16 w-auto mb-6"
+                  width={560} 
+                  height={168}
+                  className="h-32 w-auto mb-6"
                   priority
                 />
               </div>
