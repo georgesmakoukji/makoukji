@@ -27,7 +27,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center space-x-3 hover:opacity-90 transition-opacity">
               <Image 
-                src="/logo.svg" 
+                src="/makoukji-logo.png" 
                 alt="Makoukji Auto Glass Logo" 
                 width={200} 
                 height={60}
@@ -50,10 +50,10 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="relative px-5 py-2 text-sm font-semibold text-gray-700 hover:text-[#FFA500] transition-colors duration-200"
+                  className="relative px-5 py-2 text-sm font-semibold text-gray-700 hover:text-[#fae633] transition-colors duration-200"
                 >
                   {item.label}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFA500] transition-all duration-300 group-hover:w-full hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#fae633] transition-all duration-300 group-hover:w-full hover:w-full"></span>
                 </Link>
               ))}
             </div>
@@ -63,7 +63,7 @@ export default function Navbar() {
           <div className="hidden md:block ml-6">
             <Link
               href="/contact"
-              className="px-6 py-2.5 bg-[#FFA500] text-white rounded-md font-semibold text-sm hover:bg-[#FF8C00] transition-colors duration-200 shadow-sm"
+              className="px-6 py-2.5 bg-[#fae633] text-white rounded-md font-semibold text-sm hover:bg-[#d4c82a] transition-colors duration-200 shadow-sm"
             >
               Get Quote
             </Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-[#FFA500] hover:bg-gray-100 transition-colors"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-[#fae633] hover:bg-gray-100 transition-colors"
             >
               <svg
                 className="h-6 w-6"
@@ -108,7 +108,7 @@ export default function Navbar() {
           <div className="px-4 pt-4 pb-6 space-y-1">
             <div className="px-4 py-3 border-b border-gray-200 mb-4">
               <Image 
-                src="/logo.svg" 
+                src="/makoukji-logo.png" 
                 alt="Makoukji Auto Glass Logo" 
                 width={180} 
                 height={54}
@@ -125,7 +125,7 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-4 py-3 text-base font-semibold text-gray-700 hover:text-[#FFA500] hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-4 py-3 text-base font-semibold text-gray-700 hover:text-[#fae633] hover:bg-gray-50 rounded-md transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
@@ -134,7 +134,7 @@ export default function Navbar() {
             <div className="pt-4">
               <Link
                 href="/contact"
-                className="block w-full text-center px-6 py-3 bg-[#FFA500] text-white rounded-md font-semibold hover:bg-[#FF8C00] transition-colors"
+                className="block w-full text-center px-6 py-3 bg-[#fae633] text-white rounded-md font-semibold hover:bg-[#d4c82a] transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Get Free Quote
