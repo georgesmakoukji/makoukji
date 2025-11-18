@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import DynamicHeroVisual from '@/components/DynamicHeroVisual';
 
 export default function Home() {
   return (
@@ -39,64 +40,7 @@ export default function Home() {
             </div>
 
             {/* Right Visual */}
-            <div className="relative h-[500px] lg:h-[600px] rounded-lg overflow-hidden shadow-xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#fae633] via-[#d4c82a] to-[#fae633]">
-                {/* Animated background pattern */}
-                <div className="absolute inset-0 opacity-10">
-                  <div className="absolute inset-0" style={{
-                    backgroundImage: `radial-gradient(circle at 2px 2px, white 1px, transparent 0)`,
-                    backgroundSize: '40px 40px'
-                  }}></div>
-                </div>
-                
-                {/* Glass panels illustration */}
-                <div className="absolute inset-0 flex items-center justify-center p-12">
-                  <div className="relative w-full max-w-lg">
-                    {/* Main glass panel */}
-                    <div className="relative">
-                      {/* Large windshield shape */}
-                      <div className="relative mx-auto w-64 h-40 bg-white/20 backdrop-blur-md rounded-lg border-2 border-white/30 shadow-2xl transform rotate-[-2deg]">
-                        <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent rounded-lg"></div>
-                        <div className="absolute top-2 left-2 right-2 h-1 bg-white/20 rounded"></div>
-                        <div className="absolute bottom-2 left-2 right-2 h-1 bg-white/20 rounded"></div>
-                      </div>
-                      
-                      {/* Smaller side panels */}
-                      <div className="absolute -top-8 -right-8 w-32 h-24 bg-white/15 backdrop-blur-sm rounded-lg border-2 border-white/25 shadow-xl transform rotate-12"></div>
-                      <div className="absolute -bottom-8 -left-8 w-32 h-24 bg-white/15 backdrop-blur-sm rounded-lg border-2 border-white/25 shadow-xl transform -rotate-12"></div>
-                    </div>
-                    
-                    {/* Floating stats */}
-                    <div className="absolute top-0 right-0 bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-2xl transform -translate-y-4">
-                      <div className="text-center">
-                        <div className="text-4xl font-bold text-[#fae633] mb-1">60+</div>
-                        <div className="text-sm font-semibold text-gray-700">Years</div>
-                      </div>
-                    </div>
-                    
-                    {/* Quality indicator */}
-                    <div className="absolute bottom-0 left-0 bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-2xl transform translate-y-4">
-                      <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 bg-[#fae633] rounded-full flex items-center justify-center">
-                          <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                          </svg>
-                        </div>
-                        <div>
-                          <div className="text-lg font-bold text-gray-900">Premium</div>
-                          <div className="text-xs text-gray-600">Quality</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Shimmer effect */}
-                <div className="absolute inset-0 overflow-hidden">
-                  <div className="absolute inset-0 shimmer transform -skew-x-12"></div>
-                </div>
-              </div>
-            </div>
+            <DynamicHeroVisual />
           </div>
         </div>
       </section>
