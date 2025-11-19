@@ -84,7 +84,7 @@ export default function Footer() {
             <div className="mb-6">
               <h5 className="text-xs font-semibold text-[#fae633] uppercase tracking-wider mb-4">Phone Number</h5>
               <ul className="space-y-2">
-                {['00961-1-256297', '00961-1-256298', '00961-1-247143', '00961-3-897157'].map((phone, index) => (
+                {['00961-1-256297', '00961-1-247143', '00961-3-897157'].map((phone, index) => (
                   <li key={index}>
                     <a 
                       href={`tel:+${phone.replace(/-/g, '')}`} 

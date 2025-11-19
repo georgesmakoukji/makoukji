@@ -198,7 +198,7 @@ export default function Contact() {
                     Phone Number
                   </h3>
                   <div className="ml-16 space-y-2">
-                    {['00961-1-256297', '00961-1-256298', '00961-1-247143', '00961-3-897157'].map((phone, index) => (
+                    {['00961-1-256297', '00961-1-247143', '00961-3-897157'].map((phone, index) => (
                       <a
                         key={index}
                         href={`tel:+${phone.replace(/-/g, '')}`}
