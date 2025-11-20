@@ -125,7 +125,7 @@ export default function Services() {
       {/* Hero Section */}
       <section className="py-16 mb-16 border-b border-gray-200">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-block mb-6 px-4 py-2 bg-slate-900 text-white rounded-full text-sm font-semibold">
+          <div className="inline-block mb-6 px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
             OUR SERVICES
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
@@ -139,20 +139,20 @@ export default function Services() {
 
       {/* Services Description */}
       <section className="max-w-7xl mx-auto mb-20">
-        <div className="bg-gray-50 rounded-2xl p-12 md:p-16 border border-gray-200">
+        <div className="bg-gray-50 rounded-lg p-12 md:p-16 border border-gray-200">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-xl border border-gray-200">
+            <div className="p-8 bg-white rounded-lg border border-gray-200">
               <p className="text-lg text-gray-700 leading-relaxed">
                 <strong className="text-[#fae633]">Ets. Georges Makoukji for autoglass</strong> is specialized in the area of autoglass (windshields, backlights, side windows and quarters) for all vehicle brands from the smallest car to the biggest truck or bus, in addition to yachts.
               </p>
             </div>
-            <div className="p-8 bg-white rounded-xl border border-gray-200">
+            <div className="p-8 bg-white rounded-lg border border-gray-200">
               <p className="text-lg text-gray-700 leading-relaxed">
                 We have a trained team that uses the most important products in the market today to help you solve all the problems that you encounter with your autoglass.
               </p>
             </div>
           </div>
-          <div className="mt-8 p-8 bg-slate-900 rounded-xl text-white">
+          <div className="mt-8 p-8 bg-[#fae633] rounded-lg text-white">
             <p className="text-lg leading-relaxed text-center">
               <strong>Ets. Georges Makoukji for autoglass</strong> offers a wide variety of window and windshield rubber for all vehicles, in addition to mirrors and plexiglas.
             </p>
@@ -166,9 +166,9 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="glass-effect rounded-2xl p-8 border border-white/15 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-transform transition-shadow duration-300"
+              className="bg-white rounded-lg p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#fae633] transition-all duration-200"
             >
-              <div className="w-16 h-16 rounded-xl flex items-center justify-center mb-6 text-sky-400 bg-sky-950/40">
+              <div className="w-16 h-16 bg-[#fae633] rounded-lg flex items-center justify-center mb-6 text-white">
                 {service.icon}
               </div>
               <h3 className="text-2xl font-bold mb-4 text-gray-900">
@@ -184,9 +184,9 @@ export default function Services() {
 
       {/* Coverage Section */}
       <section className="max-w-7xl mx-auto mb-20">
-        <div className="bg-slate-950 rounded-2xl p-12 md:p-16 text-white shadow-xl">
+        <div className="bg-gray-900 rounded-lg p-12 md:p-16 text-white shadow-xl">
           <div className="text-center mb-12">
-            <div className="inline-block px-4 py-2 bg-white/10 rounded-full mb-6 text-sm font-semibold">
+            <div className="inline-block px-4 py-2 bg-[#fae633] rounded-md mb-6 text-sm font-semibold">
               OUR COVERAGE
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -217,7 +217,7 @@ export default function Services() {
 
       {/* CTA Section */}
       <section className="max-w-4xl mx-auto text-center">
-        <div className="bg-slate-900 rounded-2xl p-12 md:p-16 text-white shadow-xl">
+        <div className="bg-[#fae633] rounded-lg p-12 md:p-16 text-white shadow-xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?
           </h2>
@@ -226,7 +226,7 @@ export default function Services() {
           </p>
           <Link
             href="/contact"
-            className="inline-block px-10 py-3 bg-sky-500 text-white rounded-full font-semibold text-lg hover:bg-sky-600 transition-colors duration-200 shadow-md"
+            className="inline-block px-10 py-3 bg-white text-[#fae633] rounded-md font-semibold text-lg hover:bg-gray-100 transition-colors duration-200 shadow-md"
           >
             Contact Us
           </Link>

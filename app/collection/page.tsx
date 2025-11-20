@@ -9,7 +9,7 @@ export default function Collection() {
         {/* Hero Section */}
         <section className="py-16 mb-16 border-b border-gray-200">
           <div className="text-center">
-            <div className="inline-block mb-6 px-4 py-2 bg-slate-900 text-white rounded-full text-sm font-semibold">
+            <div className="inline-block mb-6 px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
               SPECIAL COLLECTION
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
@@ -23,11 +23,11 @@ export default function Collection() {
 
         {/* Coming Soon Card */}
         <section className="max-w-5xl mx-auto mb-20">
-          <div className="bg-white rounded-2xl p-12 md:p-20 border border-gray-200 shadow-lg">
+          <div className="bg-white rounded-lg p-12 md:p-20 border-2 border-gray-300 shadow-lg">
             <div className="text-center space-y-8">
               {/* Icon */}
               <div className="flex justify-center mb-8">
-                <div className="w-32 h-32 bg-slate-900 rounded-full flex items-center justify-center shadow-lg">
+                <div className="w-32 h-32 bg-[#fae633] rounded-full flex items-center justify-center shadow-lg">
                   <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                   </svg>
@@ -41,7 +41,7 @@ export default function Collection() {
               
               <div className="bg-gray-50 rounded-lg p-8 md:p-12 border border-gray-200">
                 <p className="text-xl md:text-2xl text-gray-700 mb-4 leading-relaxed">
-                  We are currently <strong className="text-sky-500">developing</strong> this exclusive section to showcase our collection of special and very rare glasses for collection cars.
+                  We are currently <strong className="text-[#fae633]">developing</strong> this exclusive section to showcase our collection of special and very rare glasses for collection cars.
                 </p>
                 <p className="text-lg text-gray-600">
                   Stay tuned for an amazing collection of hard-to-find autoglass pieces!

@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 
-const WHATSAPP_NUMBER = '96170485655'; // +961 70 485655
+const WHATSAPP_NUMBER = '9613897157'; // +961 3 897157
 const WHATSAPP_MESSAGE = encodeURIComponent(
-  'Hello Makoukji, I need a quote for my car glass.'
+  'Hello, I would like a quote for my car glass.'
 );
 
 export default function WhatsAppButton() {

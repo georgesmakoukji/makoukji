@@ -17,13 +17,11 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm'
-          : 'bg-white/80 backdrop-blur'
-      }`}
-    >
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled 
+        ? 'bg-[#fae633] shadow-lg border-b border-[#d4c82a]' 
+        : 'bg-[#fae633] shadow-sm'
+    }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           <div className="flex-shrink-0">
@@ -52,7 +50,7 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="relative px-5 py-2 text-base lg:text-lg font-semibold text-slate-900 hover:text-sky-600 transition-colors duration-200"
+                  className="relative px-5 py-2 text-base lg:text-lg font-semibold text-black hover:opacity-80 transition-opacity duration-200"
                 >
                   {item.label}
                 </Link>
@@ -64,7 +62,7 @@ export default function Navbar() {
           <div className="hidden md:block ml-6">
             <Link
               href="/contact"
-              className="px-6 py-2.5 rounded-full bg-sky-500 text-white font-semibold text-sm shadow-md hover:bg-sky-600 transition-colors duration-200"
+              className="px-6 py-2.5 bg-black text-white rounded-md font-semibold text-sm hover:bg-gray-900 transition-colors duration-200 shadow-sm"
             >
               Get Quote
             </Link>
@@ -73,14 +71,14 @@ export default function Navbar() {
           {/* Mobile actions: Call + Menu */}
           <div className="md:hidden flex items-center gap-3">
             <a
-              href="tel:01256297"
-              className="px-3 py-1.5 rounded-full bg-sky-500 text-white text-sm font-semibold shadow-md hover:bg-sky-600"
+              href="tel:+9613897157"
+              className="px-3 py-1.5 rounded-full bg-black text-white text-sm font-semibold shadow-md hover:bg-gray-900"
             >
-              Call Now
+              Call
             </a>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-slate-900 hover:bg-slate-100 transition-colors"
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-100 hover:bg-[#d4c82a] transition-colors"
             >
               <svg
                 className="h-6 w-6"
@@ -111,9 +109,9 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-slate-200 shadow-lg">
+        <div className="md:hidden bg-[#fae633] border-t border-[#d4c82a] shadow-lg">
           <div className="px-4 pt-4 pb-6 space-y-1">
-            <div className="px-4 py-3 border-b border-slate-200 mb-4">
+            <div className="px-4 py-3 border-b border-[#d4c82a] mb-4">
               <Image 
                 src="/makoukji-logo.png" 
                 alt="Makoukji Auto Glass Logo" 
@@ -132,7 +130,7 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="block px-4 py-3 text-base font-semibold text-slate-900 hover:text-sky-600 transition-colors"
+                className="block px-4 py-3 text-base font-semibold text-black hover:opacity-80 transition-opacity"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
@@ -141,7 +139,7 @@ export default function Navbar() {
             <div className="pt-4">
               <Link
                 href="/contact"
-                className="block w-full text-center px-6 py-3 rounded-full bg-sky-500 text-white font-semibold hover:bg-sky-600 transition-colors"
+                className="block w-full text-center px-6 py-3 bg-black text-white rounded-md font-semibold hover:bg-gray-900 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Get Free Quote

@@ -25,7 +25,7 @@ export default function Footer() {
                 href="https://www.facebook.com/makoukjiautoglass/" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-sky-500 rounded-lg flex items-center justify-center hover:bg-sky-600 transition-colors"
+                className="w-10 h-10 bg-[#fae633] rounded-lg flex items-center justify-center hover:bg-[#d4c82a] transition-colors"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ export default function Footer() {
                 href="https://www.instagram.com/makoukjiautoglass/" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-sky-500 rounded-lg flex items-center justify-center hover:bg-sky-600 transition-colors"
+                className="w-10 h-10 bg-[#fae633] rounded-lg flex items-center justify-center hover:bg-[#d4c82a] transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -82,47 +82,24 @@ export default function Footer() {
             
             {/* Phone Numbers */}
             <div className="mb-6">
-              <h5 className="text-xs font-semibold text-sky-400 uppercase tracking-wider mb-4">
-                Phone & WhatsApp
-              </h5>
+              <h5 className="text-xs font-semibold text-[#fae633] uppercase tracking-wider mb-4">Phone Number</h5>
               <ul className="space-y-2">
-                <li>
-                  <a
-                    href="tel:01256297"
-                    className="text-gray-300 hover:text-white transition-colors font-medium"
-                  >
-                    01 256 297 (Landline)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="tel:01247143"
-                    className="text-gray-300 hover:text-white transition-colors font-medium"
-                  >
-                    01 247 143 (Office)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://wa.me/96170485655"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors font-medium"
-                  >
-                    <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500 text-white text-xs">
-                      W
-                    </span>
-                    +961 70 485 655 (WhatsApp)
-                  </a>
-                </li>
+                {['00961-1-256297', '00961-1-247143', '00961-3-897157'].map((phone, index) => (
+                  <li key={index}>
+                    <a 
+                      href={`tel:+${phone.replace(/-/g, '')}`} 
+                      className="text-gray-300 hover:text-white transition-colors font-medium"
+                    >
+                      {phone}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
 
             {/* Address */}
             <div className="mb-6">
-              <h5 className="text-xs font-semibold text-sky-400 uppercase tracking-wider mb-4">
-                Address
-              </h5>
+              <h5 className="text-xs font-semibold text-[#fae633] uppercase tracking-wider mb-4">Address</h5>
               <div className="text-gray-300 font-medium leading-relaxed">
                 <p>Dora Trade Center</p>
                 <p>Dora Highway</p>
@@ -132,9 +109,7 @@ export default function Footer() {
 
             {/* Email */}
             <div>
-              <h5 className="text-xs font-semibold text-sky-400 uppercase tracking-wider mb-4">
-                Email Us
-              </h5>
+              <h5 className="text-xs font-semibold text-[#fae633] uppercase tracking-wider mb-4">Email Us</h5>
               <ul className="space-y-2">
                 {['info@makoukji.com', 'georges@makoukji.com'].map((email, index) => (
                   <li key={index}>
