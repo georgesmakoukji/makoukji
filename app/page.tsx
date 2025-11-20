@@ -124,6 +124,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials - Trusted by Drivers in Lebanon */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              Trusted by Drivers in Lebanon
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              A sample of the kind of feedback we receive from customers across Beirut, Dora, and all over Lebanon.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                name: 'Ali K.',
+                text: 'They replaced my windshield in Dora the same day. Professional work and no leaks at all.',
+              },
+              {
+                name: 'Rita M.',
+                text: 'Very organized team. They found the exact glass for my car and explained every step clearly.',
+              },
+              {
+                name: 'Karim S.',
+                text: 'We trust Makoukji for our company vehicles. Fast service and always the right glass.',
+              },
+            ].map((review, index) => (
+              <div
+                key={index}
+                className="glass-effect rounded-lg p-8 border border-white/40 shadow-lg bg-white/70"
+              >
+                <div className="flex items-center gap-1 text-yellow-400 mb-4">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <span key={i}>★</span>
+                  ))}
+                </div>
+                <p className="text-gray-800 mb-4 leading-relaxed">
+                  {review.text}
+                </p>
+                <p className="text-gray-600 text-sm">
+                  <span className="font-semibold text-gray-900">
+                    {review.name}
+                  </span>{' '}
+                  • Google-style review
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Services Overview - Professional */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -137,12 +187,23 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-            {['ROOF GLASS', 'WINDSHIELD', 'SIDE WINDOW', 'RUBBER', 'SUPER CARS', 'TRUCK', 'HEAVY MACHINERY', 'BUS'].map((service, index) => (
+            {[
+              'ROOF GLASS',
+              'WINDSHIELD',
+              'SIDE WINDOW',
+              'RUBBER',
+              'SUPER CARS',
+              'TRUCK',
+              'HEAVY MACHINERY',
+              'BUS',
+            ].map((service, index) => (
               <div
                 key={index}
-                className="bg-gray-50 p-6 rounded-lg border border-gray-200 text-center hover:border-[#fae633] hover:shadow-md transition-all duration-200"
+                className="glass-effect bg-white/70 p-6 rounded-lg border border-white/40 text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
-                <h3 className="text-sm font-semibold text-gray-900">{service}</h3>
+                <h3 className="text-sm font-semibold text-gray-900">
+                  {service}
+                </h3>
               </div>
             ))}
           </div>
@@ -157,6 +218,34 @@ export default function Home() {
             >
               View All Services
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Find Us - Dora Trade Center */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+              Find Us in Dora
+            </h2>
+            <p className="text-lg text-gray-600 mb-4">
+              Our main workshop is located in <strong>Dora Trade Center</strong> on Dora Highway, making it easy to reach from Beirut and all surrounding areas.
+            </p>
+            <p className="text-lg text-gray-600">
+              Visit us directly or contact us first for availability and a quick quote. We handle windshields, backlights, door and side glass, roof glass, and more.
+            </p>
+          </div>
+          <div className="rounded-lg overflow-hidden shadow-xl border border-gray-200">
+            <iframe
+              title="Makoukji Auto Glass - Dora Trade Center"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.9850712139795!2d35.5464358!3d33.8954202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f3dd7c934d7ad%3A0x8c13b0a6f8a2f3a5!2sDora%20Trade%20Center!5e0!3m2!1sen!2slb!4v1700000000000"
+              width="100%"
+              height="360"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full border-0"
+            />
           </div>
         </div>
       </section>

@@ -71,10 +71,10 @@ export default function Navbar() {
           {/* Mobile actions: Call + Menu */}
           <div className="md:hidden flex items-center gap-3">
             <a
-              href="tel:+9613897157"
+              href="tel:01256297"
               className="px-3 py-1.5 rounded-full bg-black text-white text-sm font-semibold shadow-md hover:bg-gray-900"
             >
-              Call
+              Call Now
             </a>
             <button
               onClick={() => setIsOpen(!isOpen)}
