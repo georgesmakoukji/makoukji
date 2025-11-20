@@ -22,7 +22,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://www.facebook.com/makoukjiautoglass/" 
+                href="https://www.facebook.com/347538652023352" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#fae633] rounded-lg flex items-center justify-center hover:bg-[#d4c82a] transition-colors"

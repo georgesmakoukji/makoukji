@@ -36,7 +36,7 @@ const businessSchema = {
     },
   ],
   sameAs: [
-    'https://www.facebook.com/makoukjiautoglass/',
+    'https://www.facebook.com/347538652023352',
     'https://www.instagram.com/makoukjiautoglass/',
   ],
   areaServed: {
