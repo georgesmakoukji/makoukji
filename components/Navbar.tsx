@@ -72,7 +72,7 @@ export default function Navbar() {
           <div className="md:hidden flex items-center gap-3">
             <a
               href="tel:01256297"
-              className="px-3 py-1.5 rounded-full bg-black text-white text-sm font-semibold shadow-md hover:bg-gray-900 btn-lift"
+              className="px-4 py-2.5 rounded-full bg-black text-white text-sm font-semibold shadow-md hover:bg-gray-900 btn-lift"
             >
               Call Now
             </a>

@@ -123,7 +123,7 @@ export default function Services() {
   return (
     <article className="min-h-screen pt-24 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
       {/* Hero Section */}
-      <section className="py-20 mb-20 border-b border-gray-200">
+      <section className="py-20 mb-20 border-b border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block mb-6 px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
             OUR SERVICES
@@ -138,7 +138,7 @@ export default function Services() {
       </section>
 
       {/* Services Description */}
-      <section className="max-w-7xl mx-auto mb-24">
+      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="bg-gray-50 rounded-lg p-12 md:p-16 border border-gray-200">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-8 bg-white rounded-lg border border-gray-200">
@@ -161,12 +161,12 @@ export default function Services() {
       </section>
 
       {/* Services Grid */}
-      <section className="max-w-7xl mx-auto mb-24">
+      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {services.map((service, index) => (
             <div
               key={index}
-              className="glass-effect bg-white/80 rounded-lg p-8 border border-white/40 shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full"
+              className="glass-effect bg-white/80 rounded-lg p-8 border border-white/40 shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full gpu-transform"
             >
               <div className="w-16 h-16 bg-[#fae633] rounded-lg flex items-center justify-center mb-6 text-white">
                 {service.icon}
@@ -183,7 +183,7 @@ export default function Services() {
       </section>
 
       {/* Coverage Section */}
-      <section className="max-w-7xl mx-auto mb-20">
+      <section className="max-w-7xl mx-auto mb-20 safe-x-pad">
         <div className="bg-gray-900 rounded-lg p-12 md:p-16 text-white shadow-xl">
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-2 bg-[#fae633] rounded-md mb-6 text-sm font-semibold">
@@ -216,7 +216,7 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="max-w-4xl mx-auto text-center">
+      <section className="max-w-4xl mx-auto text-center safe-x-pad">
         <div className="bg-[#fae633] rounded-lg p-12 md:p-16 text-white shadow-xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?

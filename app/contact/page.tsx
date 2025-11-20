@@ -53,7 +53,7 @@ export default function Contact() {
   return (
     <article className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-white">
       {/* Hero Section */}
-      <section className="py-20 mb-16 border-b border-gray-200">
+      <section className="py-20 mb-16 border-b border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block mb-6 px-5 py-2.5 bg-[#fae633] text-white rounded-md text-base font-semibold">
             CONTACT US
@@ -75,7 +75,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto safe-x-pad">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="bg-white rounded-lg p-10 md:p-12 shadow-lg border border-gray-200">
@@ -99,7 +99,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors text-base"
                   placeholder="Your full name"
                 />
               </div>
@@ -115,7 +115,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors text-base"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -130,7 +130,7 @@ export default function Contact() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors text-base"
                   placeholder="00961-1-256297"
                 />
               </div>
@@ -146,7 +146,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors text-base"
                   placeholder="What&apos;s this about?"
                 />
               </div>
@@ -162,7 +162,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors resize-none text-base"
                   placeholder="Your message..."
                 />
               </div>
@@ -207,7 +207,7 @@ export default function Contact() {
                     </div>
                     Phone Number
                   </h3>
-                  <div className="ml-16 space-y-2">
+                  <div className="ml-16 space-y-3">
                     {['00961-1-256297', '00961-1-247143', '00961-3-897157'].map((phone, index) => (
                       <a
                         key={index}
@@ -248,7 +248,7 @@ export default function Contact() {
                     </div>
                     Email Us
                   </h3>
-                  <div className="ml-16 space-y-2">
+                  <div className="ml-16 space-y-3">
                     {['info@makoukji.com', 'georges@makoukji.com'].map((email, index) => (
                       <a
                         key={index}
@@ -334,7 +334,7 @@ export default function Contact() {
       </div>
 
       {/* Find Us - Map */}
-      <section id="find-us" className="mt-16 px-4 sm:px-6 lg:px-8">
+      <section id="find-us" className="mt-16 px-4 sm:px-6 lg:px-8 safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="bg-gray-50 rounded-lg p-8 md:p-12 border border-gray-200 shadow-sm">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">Find Us</h2>

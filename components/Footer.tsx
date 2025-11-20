@@ -15,6 +15,8 @@ export default function Footer() {
                 width={220} 
                 height={66}
                 className="h-14 w-auto mb-6"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed text-lg">
@@ -54,7 +56,7 @@ export default function Footer() {
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-6">
               Quick Links
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               {[
                 { href: '/', label: 'Home' },
                 { href: '/about', label: 'About' },
@@ -83,7 +85,7 @@ export default function Footer() {
             {/* Phone Numbers */}
             <div className="mb-6">
               <h5 className="text-xs font-semibold text-[#fae633] uppercase tracking-wider mb-4">Phone Number</h5>
-              <ul className="space-y-2">
+              <ul className="space-y-4">
                 {['00961-1-256297', '00961-1-247143', '00961-3-897157'].map((phone, index) => (
                   <li key={index}>
                     <a 
@@ -110,7 +112,7 @@ export default function Footer() {
             {/* Email */}
             <div>
               <h5 className="text-xs font-semibold text-[#fae633] uppercase tracking-wider mb-4">Email Us</h5>
-              <ul className="space-y-2">
+              <ul className="space-y-4">
                 {['info@makoukji.com', 'georges@makoukji.com'].map((email, index) => (
                   <li key={index}>
                     <a 

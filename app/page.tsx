@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <article className="min-h-screen bg-white">
       {/* Hero Section - Professional */}
-      <section className="relative pt-40 pb-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
+      <section className="relative pt-40 pb-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white gpu-transform safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Trust Indicators */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-y border-gray-200">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-y border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
@@ -69,7 +69,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - Professional */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -126,7 +126,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials - Trusted by Drivers in Lebanon */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -141,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview - Professional */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -165,7 +165,7 @@ export default function Home() {
             ].map((service, index) => (
               <div
                 key={index}
-                className="glass-effect bg-white/70 p-6 rounded-lg border border-white/40 text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl"
+                className="glass-effect bg-white/70 p-6 rounded-lg border border-white/40 text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl gpu-transform"
               >
                 <h3 className="text-sm font-semibold text-gray-900">
                   {service}
@@ -189,7 +189,7 @@ export default function Home() {
       </section>
 
       {/* Find Us - Dora Trade Center */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section - Professional */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white safe-x-pad">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?

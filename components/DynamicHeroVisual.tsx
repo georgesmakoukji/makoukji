@@ -20,7 +20,7 @@ export default function DynamicHeroVisual() {
   }, [stats.length]);
 
   return (
-    <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
+    <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl gpu-transform">
       {/* Animated gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#fae633] via-[#d4c82a] to-[#fae633] animate-gradient bg-[length:200%_200%]"></div>
       

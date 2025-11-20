@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
@@ -10,7 +9,7 @@ export default function About() {
   return (
     <article className="min-h-screen pt-24 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
       {/* Hero Section */}
-      <section className="py-20 mb-20 border-b border-gray-200">
+      <section className="py-20 mb-20 border-b border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block mb-6 px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
             ABOUT US
@@ -36,7 +35,7 @@ export default function About() {
       </section>
 
       {/* Main Story Section */}
-      <section className="max-w-7xl mx-auto mb-24">
+      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Content */}
           <div className="space-y-6">
@@ -105,7 +104,7 @@ export default function About() {
       </section>
 
       {/* Why We're The Best Section */}
-      <section className="max-w-7xl mx-auto mb-24">
+      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
             Why We're Lebanon's Most Renowned
@@ -141,7 +140,7 @@ export default function About() {
       </section>
 
       {/* Expertise Section */}
-      <section className="max-w-7xl mx-auto mb-24">
+      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="bg-white rounded-lg p-12 md:p-16 border border-gray-200 shadow-sm">
           <div className="text-center mb-12">
             <div className="inline-block px-4 py-2 bg-[#fae633] text-white rounded-md mb-6 text-sm font-semibold">
@@ -172,7 +171,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="max-w-4xl mx-auto text-center">
+      <section className="max-w-4xl mx-auto text-center safe-x-pad">
         <div className="bg-gray-900 rounded-lg p-12 md:p-16 text-white shadow-xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Experience Excellence

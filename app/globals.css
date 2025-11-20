@@ -20,6 +20,12 @@
   --font-sans: var(--font-inter);
 }
 
+/* Smooth scrolling and prevent horizontal scroll on mobile */
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -28,9 +34,18 @@ body {
   overflow-x: hidden;
 }
 
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+/* GPU acceleration helper for smoother transforms on mobile */
+.gpu-transform {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* Safe horizontal padding on small screens */
+@media (max-width: 640px) {
+  .safe-x-pad {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* Custom gradient animations */

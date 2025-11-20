@@ -9,6 +9,7 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
