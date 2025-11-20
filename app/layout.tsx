@@ -17,23 +17,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Auto Glass Lebanon – Windshield Repair in Beirut | Makoukji Auto Glass",
+  title: "Auto Glass Lebanon – Windshield & Glass Replacement in Beirut | Makoukji Auto Glass",
   description:
-    "Makoukji Auto Glass in Dora, Beirut offers expert auto glass services in Lebanon: windshield repair and replacement, car window tinting, chip repair, and mobile glass service across Greater Beirut.",
+    "Makoukji Auto Glass in Dora, Beirut offers expert auto glass services in Lebanon: windshield and auto glass replacement for windshields, backlights, door glass, side glass, and roof glass across Greater Beirut.",
   keywords: [
     "Auto Glass Lebanon",
-    "Windshield Repair Beirut",
+    "Windshield Replacement Beirut",
     "Windshield Replacement Lebanon",
-    "Car Tinting Lebanon",
-    "Window Tinting Beirut",
-    "Mobile Glass Service Lebanon",
+    "Car Glass Lebanon",
+    "Door Glass Replacement Lebanon",
+    "Backlight Replacement Lebanon",
+    "Side Glass Replacement Beirut",
     "Auto Glass Dora Highway",
     "Makoukji Auto Glass",
   ],
   openGraph: {
-    title: "Makoukji Auto Glass | Auto Glass Lebanon & Windshield Repair Beirut",
+    title: "Makoukji Auto Glass | Auto Glass Lebanon & Windshield Replacement Beirut",
     description:
-      "Trusted since 1964 for professional auto glass in Lebanon: windshield repair, chip repair, car window tinting, and mobile glass service from Dora, Beirut.",
+      "Trusted since 1964 for professional auto glass in Lebanon: windshield, backlight, door glass, side glass, and roof glass replacement from Dora, Beirut.",
     type: "website",
     locale: "en_LB",
     siteName: "Makoukji Auto Glass",

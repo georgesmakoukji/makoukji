@@ -138,41 +138,41 @@ export default function Services() {
             AUTO GLASS SERVICES IN LEBANON
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4 text-gray-900">
-            Windshield & Glass Services in Beirut
+            Windshield & Glass Replacement in Beirut
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Fast, professional auto glass service for drivers across Dora, Beirut and all of Lebanon — including mobile glass service when you can&apos;t come to us.
+            Fast, professional auto glass replacement for drivers across Dora, Beirut and all of Lebanon — focused on windshields, backlights, door glass, side glass, and roof glass.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-lg p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#fae633] transition-all duration-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Windshield Replacement
+              Windshield & Backlight Replacement
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Cracked or shattered windshield? We stock a huge range of OEM and high-quality aftermarket windshields for vehicles across Lebanon.
-              Our technicians in Dora, Beirut follow factory-approved installation methods so your car is safe, sealed, and ready for inspection.
+              Cracked or shattered front or rear glass? We stock a wide range of OEM and high-quality aftermarket windshields and backlights for vehicles across Lebanon.
+              Our technicians in Dora, Beirut follow factory-approved installation methods so your vehicle is safe, sealed, and ready for inspection.
             </p>
           </div>
 
           <div className="bg-white rounded-lg p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#fae633] transition-all duration-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Chip & Crack Repair
+              Door & Side Glass Replacement
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Small stone chip or hairline crack? In many cases we can repair instead of replace, saving you money and keeping the original factory seal.
-              Our team quickly stabilizes the damage before it spreads, using premium resins designed for Lebanon&apos;s hot sun and highway conditions.
+              Broken door or side glass? We replace smashed or scratched windows with perfectly matched glass so your car is secure again.
+              From everyday cars to commercial fleets, we handle precise alignment and sealing to keep out noise, dust, and water.
             </p>
           </div>
 
           <div className="bg-white rounded-lg p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#fae633] transition-all duration-200">
             <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Window Tinting & UV Protection
+              Roof Glass & Specialty Glass
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Upgrade your comfort with professional car tinting in Beirut. We offer heat-rejecting, UV-blocking films that handle Lebanon&apos;s summer
-              while keeping your interior protected and your car looking premium — always installed with clean, bubble-free results.
+              We provide replacement glass for roof panels and specialty applications, including rare and hard-to-find pieces.
+              Our team sources and installs the right glass for your vehicle, preserving both safety and the original design.
             </p>
           </div>
         </div>
