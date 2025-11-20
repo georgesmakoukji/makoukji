@@ -10,7 +10,7 @@ export default function Services() {
     {
       title: 'WINDSHIELD',
       description:
-        'Front windshield replacement for all vehicle brands. We stock a wide range of high-quality glass and install it using factory-approved methods so your view and safety are restored.',
+        'Cracked or shattered front glass? We stock a wide range of OEM and high-quality aftermarket windshields for vehicles across Lebanon. Our technicians in Dora, Beirut follow factory-approved installation methods so your vehicle is safe, sealed, and ready for inspection.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -25,7 +25,7 @@ export default function Services() {
     {
       title: 'BACKLIGHT',
       description:
-        'Rear glass (backlight) replacement for hatchbacks, sedans, SUVs, and vans. We match the correct curvature and heating lines so your rear visibility and defrost function work perfectly.',
+        'Cracked or shattered rear glass? We stock a wide range of OEM and high-quality aftermarket backlights for vehicles across Lebanon. Our technicians in Dora, Beirut follow factory-approved installation methods so your vehicle is safe, sealed, and ready for inspection.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -40,7 +40,7 @@ export default function Services() {
     {
       title: 'DOOR & SIDE GLASS',
       description:
-        'Door and side glass replacement when windows are smashed, scratched, or jammed. We fit the correct glass and ensure smooth window operation and proper sealing against dust and water.',
+        'Broken door or side glass? We replace smashed or scratched windows with perfectly matched glass so your car is secure again. From everyday cars to commercial fleets, we handle precise alignment and sealing to keep out noise, dust, and water.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -55,7 +55,7 @@ export default function Services() {
     {
       title: 'ROOF GLASS',
       description:
-        'Replacement of fixed and sliding roof glass panels. We handle panoramic roofs and specialty roof glass, restoring both appearance and weather protection.',
+        'We provide replacement glass for roof panels and specialty applications, including rare and hard-to-find pieces. Our team sources and installs the right glass for your vehicle, preserving both safety and the original design.',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -155,53 +155,6 @@ export default function Services() {
           <div className="mt-8 p-8 bg-[#fae633] rounded-lg text-white">
             <p className="text-lg leading-relaxed text-center">
               <strong>Ets. Georges Makoukji for autoglass</strong> offers a wide variety of window and windshield rubber for all vehicles, in addition to mirrors and plexiglas.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Services for Lebanon */}
-      <section className="max-w-7xl mx-auto mb-20">
-        <div className="text-center mb-12">
-          <div className="inline-block px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
-            AUTO GLASS SERVICES IN LEBANON
-          </div>
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-4 text-gray-900">
-            Windshield & Glass Replacement in Beirut
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Fast, professional auto glass replacement for drivers across Dora, Beirut and all of Lebanon — focused on windshields, backlights, door glass, side glass, and roof glass.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white rounded-lg p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#fae633] transition-all duration-200">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Windshield & Backlight Replacement
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              Cracked or shattered front or rear glass? We stock a wide range of OEM and high-quality aftermarket windshields and backlights for vehicles across Lebanon.
-              Our technicians in Dora, Beirut follow factory-approved installation methods so your vehicle is safe, sealed, and ready for inspection.
-            </p>
-          </div>
-
-          <div className="bg-white rounded-lg p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#fae633] transition-all duration-200">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Door & Side Glass Replacement
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              Broken door or side glass? We replace smashed or scratched windows with perfectly matched glass so your car is secure again.
-              From everyday cars to commercial fleets, we handle precise alignment and sealing to keep out noise, dust, and water.
-            </p>
-          </div>
-
-          <div className="bg-white rounded-lg p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#fae633] transition-all duration-200">
-            <h3 className="text-2xl font-bold mb-4 text-gray-900">
-              Roof Glass & Specialty Glass
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              We provide replacement glass for roof panels and specialty applications, including rare and hard-to-find pieces.
-              Our team sources and installs the right glass for your vehicle, preserving both safety and the original design.
             </p>
           </div>
         </div>
