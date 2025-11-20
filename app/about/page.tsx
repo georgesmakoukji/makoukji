@@ -40,7 +40,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Content */}
           <div className="space-y-6">
-            <div className="inline-block px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
+            <div className="inline-block px-4 py-2 bg-slate-900 text-white rounded-full text-sm font-semibold">
               OUR LEGACY
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
@@ -57,7 +57,7 @@ export default function About() {
           </div>
 
           {/* Visual */}
-          <div className="relative h-[400px] rounded-lg overflow-hidden bg-gradient-to-br from-[#fae633] to-[#d4c82a] shadow-xl">
+          <div className="relative h-[400px] rounded-lg overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 shadow-xl">
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center text-white space-y-6 p-8">
                 <div className="w-32 h-32 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg mx-auto">
@@ -74,7 +74,7 @@ export default function About() {
         <div className="bg-gray-900 rounded-lg p-12 md:p-16 text-white shadow-xl">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
-              <div className="inline-block px-4 py-2 bg-[#fae633] rounded-md mb-6 text-sm font-semibold">
+              <div className="inline-block px-4 py-2 bg-slate-900 rounded-full mb-6 text-sm font-semibold">
                 OUR COMMITMENT
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -115,8 +115,9 @@ export default function About() {
           {[
             {
               title: 'The Oldest',
-              description: 'Founded in 1964, we have over 60 years of experience serving Lebanon. Our longevity speaks to our reliability and trustworthiness.',
-              gradient: 'from-[#fae633] to-[#d4c82a]',
+              description:
+                'Founded in 1964, we have over 60 years of experience serving Lebanon. Our longevity speaks to our reliability and trustworthiness.',
+              gradient: 'from-slate-900 to-sky-600',
             },
             {
               title: 'The Best',
@@ -125,8 +126,9 @@ export default function About() {
             },
             {
               title: 'The Reference',
-              description: 'As Lebanon\'s most renowned autoglass company, we are the trusted reference for all autoglass needs across the country.',
-              gradient: 'from-[#fae633] to-[#d4c82a]',
+              description:
+                "As Lebanon's most renowned autoglass company, we are the trusted reference for all autoglass needs across the country.",
+              gradient: 'from-slate-900 to-sky-600',
             },
           ].map((item, index) => (
             <div

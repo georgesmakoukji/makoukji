@@ -55,7 +55,7 @@ export default function Contact() {
       {/* Hero Section */}
       <section className="py-20 mb-16 border-b border-gray-200">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-block mb-6 px-5 py-2.5 bg-[#fae633] text-white rounded-md text-base font-semibold">
+          <div className="inline-block mb-6 px-5 py-2.5 bg-slate-900 text-white rounded-full text-base font-semibold">
             CONTACT US
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900">
@@ -67,7 +67,7 @@ export default function Contact() {
           <div className="mt-8 flex justify-center">
             <a
               href="#find-us"
-              className="px-6 py-3 bg-black text-white rounded-md font-semibold text-sm md:text-base hover:bg-gray-900 transition-colors"
+              className="px-6 py-3 bg-sky-500 text-white rounded-full font-semibold text-sm md:text-base hover:bg-sky-600 transition-colors"
             >
               View Location
             </a>
@@ -99,7 +99,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white text-gray-900 transition-colors"
                   placeholder="Your full name"
                 />
               </div>
@@ -115,7 +115,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white text-gray-900 transition-colors"
                   placeholder="your.email@example.com"
                 />
               </div>
@@ -130,7 +130,7 @@ export default function Contact() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white text-gray-900 transition-colors"
                   placeholder="00961-1-256297"
                 />
               </div>
@@ -146,7 +146,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white text-gray-900 transition-colors"
                   placeholder="What&apos;s this about?"
                 />
               </div>
@@ -162,7 +162,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#fae633] focus:border-[#fae633] bg-white text-gray-900 transition-colors resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-sky-500 focus:border-sky-500 bg-white text-gray-900 transition-colors resize-none"
                   placeholder="Your message..."
                 />
               </div>
@@ -182,7 +182,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full px-8 py-3 bg-[#fae633] text-white rounded-md font-semibold text-lg hover:bg-[#d4c82a] transition-colors duration-200 shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full px-8 py-3 bg-sky-500 text-white rounded-full font-semibold text-lg hover:bg-sky-600 transition-colors duration-200 shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
