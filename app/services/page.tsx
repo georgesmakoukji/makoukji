@@ -152,11 +152,6 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="mt-8 p-8 bg-[#fae633] rounded-lg text-white">
-            <p className="text-lg leading-relaxed text-center">
-              <strong>Ets. Georges Makoukji for autoglass</strong> offers a wide variety of window and windshield rubber for all vehicles, in addition to mirrors and plexiglas.
-            </p>
-          </div>
         </div>
       </section>
 
