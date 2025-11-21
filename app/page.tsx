@@ -140,7 +140,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Overview - Professional */}
+      {/* Vehicle Types We Serve */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -148,35 +148,32 @@ export default function Home() {
               Comprehensive Autoglass Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We provide autoglass services for all vehicle types
+              We replace glass for cars, super cars, trucks, heavy machinery, and buses.
             </p>
           </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6 mb-12">
             {[
-              'ROOF GLASS',
-              'WINDSHIELD',
-              'SIDE WINDOW',
-              'RUBBER',
+              'CARS',
               'SUPER CARS',
-              'TRUCK',
+              'TRUCKS',
               'HEAVY MACHINERY',
               'BUS',
-            ].map((service, index) => (
+            ].map((type, index) => (
               <div
                 key={index}
-                className="glass-effect bg-white/70 p-6 rounded-lg border border-white/40 text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl gpu-transform"
+                className="glass-effect bg-white/80 p-5 sm:p-6 rounded-xl border border-white/60 text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl gpu-transform"
               >
-                <h3 className="text-sm font-semibold text-gray-900">
-                  {service}
+                <h3 className="text-sm sm:text-base font-semibold text-gray-900 tracking-wide">
+                  {type}
                 </h3>
               </div>
             ))}
           </div>
 
-          <div className="bg-[#fae633] rounded-lg p-8 text-center text-white">
-            <p className="text-lg mb-6">
-              Plus specialized services for boats, yachts, and all types of vehicles
+          <div className="bg-[#fae633] rounded-2xl p-8 sm:p-10 text-center text-white shadow-lg">
+            <p className="text-lg sm:text-xl mb-6">
+              Not sure which category your vehicle fits in? Contact us and we&apos;ll guide you to the right glass replacement.
             </p>
             <Link
               href="/services"
