@@ -260,7 +260,7 @@ export default function Services() {
                   <div className="font-semibold text-base text-center transition-opacity duration-200 group-hover:opacity-0">
                     {item.label}
                   </div>
-                  <p className="absolute inset-x-2 text-xs text-gray-200 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                  <p className="absolute inset-x-2 text-sm md:text-base text-[#fae633] font-semibold tracking-wide text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                     {item.desc}
                   </p>
                 </div>
