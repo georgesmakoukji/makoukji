@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'About Us - Makoukji Auto Glass | Lebanon\'s Most Renowned Since 1964',
@@ -36,7 +37,7 @@ export default function About() {
 
       {/* Main Story Section */}
       <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
-        <div className="grid grid-cols-1 gap-12 items-center mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Content */}
           <div className="space-y-6">
             <div className="inline-block px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
@@ -53,6 +54,19 @@ export default function About() {
                 In the beginning of the 21st century, the present Owner and General Manager Mr. Joseph Makoukji expanded the business into a newer and bigger operation by adding a new branch and a <strong className="text-[#fae633]">1500 square meters warehouse</strong>, ensuring we maintain the most comprehensive inventory of autoglass in Lebanon.
               </p>
             </div>
+          </div>
+
+          {/* Visual Image */}
+          <div className="relative h-72 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-xl">
+            <Image
+              src="/images/about-glass.jpg"
+              alt="Technician replacing a car windshield at Makoukji Auto Glass"
+              fill
+              sizes="(min-width: 1024px) 480px, 100vw"
+              className="object-cover"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
 
         </div>
