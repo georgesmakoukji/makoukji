@@ -11,7 +11,7 @@ export default function About() {
       {/* Hero Section */}
       <section className="py-20 mb-20 border-b border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-block mb-6 px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
+          <div className="inline-block mb-6 px-6 py-3 bg-[#fae633] text-white rounded-md text-base md:text-lg font-semibold">
             ABOUT US
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
@@ -39,7 +39,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Content */}
           <div className="space-y-6">
-            <div className="inline-block px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
+            <div className="inline-block px-6 py-3 bg-[#fae633] text-white rounded-md text-base md:text-lg font-semibold">
               OUR LEGACY
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
@@ -97,7 +97,7 @@ export default function About() {
         <div className="bg-gray-900 rounded-lg p-12 md:p-16 text-white shadow-xl">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
-              <div className="inline-block px-4 py-2 bg-[#fae633] rounded-md mb-6 text-sm font-semibold">
+              <div className="inline-block px-6 py-3 bg-[#fae633] rounded-md mb-6 text-base md:text-lg font-semibold">
                 OUR COMMITMENT
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
