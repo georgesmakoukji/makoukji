@@ -256,11 +256,11 @@ export default function Services() {
                 <div className="text-4xl mb-3 transition-opacity duration-200 group-hover:opacity-0">
                   {item.icon}
                 </div>
-                <div className="relative h-12 flex items-center justify-center">
+                <div className="relative h-14 flex items-center justify-center">
                   <div className="font-semibold text-base text-center transition-opacity duration-200 group-hover:opacity-0">
                     {item.label}
                   </div>
-                  <p className="absolute inset-x-2 text-sm md:text-base text-[#fae633] font-semibold tracking-wide text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                  <p className="absolute inset-x-2 text-xs md:text-sm leading-snug text-[#fae633] font-semibold tracking-wide text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                     {item.desc}
                   </p>
                 </div>
