@@ -23,42 +23,6 @@ export default function Services() {
       ),
     },
     {
-      title: 'RUBBERS',
-      description:
-        'Wide variety of window and windshield rubbers for all vehicles. We supply and install high-quality rubber profiles to ensure a perfect seal against water, dust, and wind noise.',
-      icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M4 7h16v10a2 2 0 01-2 2H6a2 2 0 01-2-2V7z"
-          />
-        </svg>
-      ),
-    },
-    {
-      title: 'MIRRORS & PLEXIGLASS',
-      description:
-        'Side mirrors, rear-view mirrors and plexiglass panels for special applications. We help you match the right optical quality and shape so visibility and safety stay uncompromised.',
-      icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M5 4h9l5 5v11H5V4z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M9 12l2 2 4-4"
-          />
-        </svg>
-      ),
-    },
-    {
       title: 'BACKLIGHT',
       description:
         'Cracked or shattered rear glass? We stock a wide range of OEM and high-quality aftermarket backlights for vehicles across Lebanon. Our technicians in Dora, Beirut follow factory-approved installation methods so your vehicle is safe, sealed, and ready for inspection.',
@@ -99,6 +63,42 @@ export default function Services() {
             strokeLinejoin="round"
             strokeWidth={2}
             d="M4 7h16M6 5h12a2 2 0 012 2v9H4V7a2 2 0 012-2z"
+          />
+        </svg>
+      ),
+    },
+    {
+      title: 'RUBBERS',
+      description:
+        'Wide variety of window and windshield rubbers for all vehicles. We supply and install high-quality rubber profiles to ensure a perfect seal against water, dust, and wind noise.',
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 9h16M4 12h16M4 15h16"
+          />
+        </svg>
+      ),
+    },
+    {
+      title: 'MIRRORS & PLEXIGLASS',
+      description:
+        'Side mirrors, rear-view mirrors and plexiglass panels for special applications. We help you match the right optical quality and shape so visibility and safety stay uncompromised.',
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 6h11a2 2 0 012 2v8a2 2 0 01-2 2H4V6z"
+          />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M7 10l4 4"
           />
         </svg>
       ),
@@ -224,7 +224,6 @@ export default function Services() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
               { label: 'Super Cars', icon: '🏎️' },
-              { label: 'Cars', icon: '🚗' },
               { label: 'Trucks', icon: '🚛' },
               { label: 'Heavy Machinery', icon: '🏗️' },
               { label: 'Buses', icon: '🚌' },
