@@ -46,47 +46,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trust Indicators - Visual Card */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#fae633] to-[#f5e866] safe-x-pad">
-        <div className="max-w-5xl mx-auto relative">
-          {/* Main trust card */}
-          <div className="relative bg-white rounded-3xl shadow-2xl px-8 sm:px-12 py-10 sm:py-14 premium-shadow gpu-transform">
-            {/* Floating badges */}
-            <div className="hidden sm:flex flex-col items-start gap-3 absolute -left-4 sm:-left-6 bottom-10">
-              <div className="bg-white rounded-2xl shadow-lg px-5 py-3 text-sm font-semibold text-gray-900">
-                <div className="text-xs text-gray-500 mb-1">100%</div>
-                <div className="text-sm">Quality</div>
-              </div>
-            </div>
-            <div className="hidden sm:flex flex-col items-end gap-3 absolute -right-4 sm:-right-6 top-8">
-              <div className="bg-black rounded-2xl shadow-lg px-5 py-3 text-sm font-semibold text-white">
-                <div className="text-lg leading-none text-[#fae633] mb-1">60+</div>
-                <div className="text-xs uppercase tracking-wide">Years</div>
-              </div>
-            </div>
-
-            <div className="text-center space-y-4">
-              <p className="text-sm font-semibold tracking-wide text-gray-500 uppercase">
-                Trusted Autoglass in Lebanon
-              </p>
-              <h3 className="text-4xl sm:text-5xl font-extrabold text-gray-900">
-                All
-              </h3>
-              <p className="text-lg sm:text-xl text-gray-700">
-                Vehicles • All Car Glass Types
-              </p>
-              {/* Slider-style dots for extra visual cue */}
-              <div className="flex items-center justify-center gap-2 pt-3">
-                <span className="w-2 h-2 rounded-full bg-gray-300" />
-                <span className="w-2 h-2 rounded-full bg-gray-300" />
-                <span className="w-8 h-2 rounded-full bg-black/80" />
-                <span className="w-2 h-2 rounded-full bg-gray-300" />
-              </div>
-            </div>
-          </div>
-
-          {/* Numeric stats row */}
-          <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6">
+      {/* Trust Indicators */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-y border-gray-200 safe-x-pad">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
               { number: '60+', label: 'Years of Excellence' },
               { number: '1500', label: 'Sq Meters Warehouse' },
@@ -95,14 +58,10 @@ export default function Home() {
             ].map((stat, index) => (
               <div
                 key={index}
-                className="bg-white/90 rounded-2xl shadow-md px-4 py-5 text-center backdrop-blur-sm border border-white/60"
+                className="text-center"
               >
-                <div className="text-2xl sm:text-3xl font-bold text-[#fae633] mb-1">
-                  {stat.number}
-                </div>
-                <div className="text-xs sm:text-sm text-gray-700 font-medium">
-                  {stat.label}
-                </div>
+                <div className="text-4xl md:text-5xl font-bold text-[#fae633] mb-2">{stat.number}</div>
+                <div className="text-gray-600 font-medium">{stat.label}</div>
               </div>
             ))}
           </div>
