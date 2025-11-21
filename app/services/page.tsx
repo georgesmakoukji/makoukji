@@ -256,13 +256,17 @@ export default function Services() {
                 <div className="text-4xl mb-3 transition-opacity duration-200 group-hover:opacity-0">
                   {item.icon}
                 </div>
-                <div className="relative h-14 flex items-center justify-center">
-                  <div className="font-semibold text-base text-center transition-opacity duration-200 group-hover:opacity-0">
-                    {item.label}
+                <div className="relative h-20">
+                  <div className="absolute inset-3 flex items-center justify-center">
+                    <div className="font-semibold text-base text-center transition-opacity duration-200 group-hover:opacity-0">
+                      {item.label}
+                    </div>
                   </div>
-                  <p className="absolute inset-x-4 text-[11px] md:text-xs leading-snug text-[#fae633] font-semibold tracking-wide text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                    {item.desc}
-                  </p>
+                  <div className="absolute inset-3 flex items-center justify-center">
+                    <p className="text-xs md:text-sm leading-snug text-[#fae633] font-semibold text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                      {item.desc}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
