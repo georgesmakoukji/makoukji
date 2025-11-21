@@ -254,10 +254,14 @@ export default function Services() {
                 className="group bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 text-center transition-colors duration-200 hover:bg-white/15"
               >
                 <div className="text-4xl mb-3">{item.icon}</div>
-                <div className="font-semibold text-lg mb-2">{item.label}</div>
-                <p className="text-sm text-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  {item.desc}
-                </p>
+                <div className="relative h-12 flex items-center justify-center">
+                  <div className="font-semibold text-base text-center transition-opacity duration-200 group-hover:opacity-0">
+                    {item.label}
+                  </div>
+                  <p className="absolute inset-x-2 text-xs text-gray-200 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                    {item.desc}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
