@@ -120,6 +120,11 @@ export default function Services() {
     },
   ];
 
+  // Glass parts we replace (used in main services grid)
+  const glassServices = services.filter((service) =>
+    ['WINDSHIELD', 'BACKLIGHT', 'DOOR & SIDE GLASS', 'ROOF GLASS'].includes(service.title)
+  );
+
   return (
     <article className="min-h-screen pt-24 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
       {/* Hero Section */}
@@ -137,33 +142,10 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Services Description */}
-      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
-        <div className="bg-gray-50 rounded-lg p-12 md:p-16 border border-gray-200">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                <strong className="text-[#fae633]">Ets. Georges Makoukji for autoglass</strong> is specialized in the area of autoglass (windshields, backlights, side windows and quarters) for all vehicle brands from the smallest car to the biggest truck or bus, in addition to yachts.
-              </p>
-            </div>
-            <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                We have a trained team that uses the most important products in the market today to help you solve all the problems that you encounter with your autoglass.
-              </p>
-            </div>
-          </div>
-          <div className="mt-8 p-8 bg-[#fae633] rounded-lg text-white">
-            <p className="text-lg leading-relaxed text-center">
-              <strong>Ets. Georges Makoukji for autoglass</strong> offers a wide variety of window and windshield rubber for all vehicles, in addition to mirrors and plexiglas.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
-          {services.map((service, index) => (
+          {glassServices.map((service, index) => (
             <div
               key={index}
               className="glass-effect bg-white/80 rounded-lg p-8 border border-white/40 shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl flex flex-col h-full gpu-transform"
@@ -193,15 +175,16 @@ export default function Services() {
               Comprehensive Vehicle Coverage
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              From the smallest car to the biggest truck or bus, in addition to yachts - we provide comprehensive autoglass solutions for all vehicle types.
+              From super cars to heavy machinery, buses and boats, we provide comprehensive autoglass solutions for every vehicle category.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             {[
-              { label: 'Cars', icon: '🚗' },
+              { label: 'Super Cars', icon: '🏎️' },
               { label: 'Trucks', icon: '🚛' },
+              { label: 'Heavy Machinery', icon: '🏗️' },
               { label: 'Buses', icon: '🚌' },
-              { label: 'Yachts', icon: '⛵' },
+              { label: 'Boats & Yachts', icon: '⛵' },
             ].map((item, index) => (
               <div
                 key={index}
