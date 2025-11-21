@@ -164,16 +164,16 @@ export default function About() {
       </section>
 
       {/* Expertise Section */}
-      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
-        <div className="bg-white rounded-2xl p-10 md:p-16 border border-gray-200 shadow-md">
+      <section className="max-w-7xl mx-auto mb-28 safe-x-pad">
+        <div className="bg-white rounded-3xl p-12 md:p-20 border border-gray-200 shadow-lg">
           <div className="text-center mb-12">
-            <div className="inline-block px-5 py-2 bg-[#fae633] text-white rounded-full mb-6 text-xs md:text-sm font-semibold tracking-[0.18em] uppercase">
+            <div className="inline-block px-6 py-2.5 bg-[#fae633] text-white rounded-full mb-6 text-sm md:text-base font-semibold tracking-[0.18em] uppercase">
               Our Expertise
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
+            <h2 className="text-5xl md:text-6xl font-bold mb-5 text-gray-900">
               Specialized Services
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From everyday cars to the biggest trucks and buses, Makoukji handles every type of autoglass job with factory-level precision and care.
             </p>
           </div>
@@ -193,7 +193,7 @@ export default function About() {
           </div>
           <div className="mt-4 p-8 md:p-10 bg-[#fae633] rounded-2xl text-gray-900 text-center shadow-lg">
             <p className="text-lg md:text-xl leading-relaxed font-medium">
-              Ets. Georges Makoukji for autoglass offers a wide variety of rubber and accessories for windshields, backlights, door glass, side windows and roof glass for all vehicles, in addition to mirrors and plexiglas.
+              Ets. Georges Makoukji for autoglass offers a wide variety of rubber and accessories for windshields, backlights, door glass, side windows and roof glass for all vehicles, in addition to mirrors and plexiglass.
             </p>
           </div>
         </div>
