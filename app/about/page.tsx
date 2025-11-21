@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export const metadata = {
   title: 'About Us - Makoukji Auto Glass | Lebanon\'s Most Renowned Since 1964',
@@ -58,12 +57,10 @@ export default function About() {
 
           {/* Visual Image */}
           <div className="relative h-72 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-xl">
-            <Image
+            <img
               src="/window.svg"
               alt="Stylized car glass illustration"
-              fill
-              sizes="(min-width: 1024px) 480px, 100vw"
-              className="object-cover"
+              className="w-full h-full object-cover"
               loading="lazy"
               decoding="async"
             />
