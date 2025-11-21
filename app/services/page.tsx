@@ -226,27 +226,27 @@ export default function Services() {
               {
                 label: 'Super Cars',
                 icon: '🏎️',
-                desc: 'High‑end and performance vehicles that require precise, factory‑spec autoglass.',
+                desc: 'Performance and luxury vehicles.',
               },
               {
                 label: 'Trucks',
                 icon: '🚛',
-                desc: 'Light and heavy trucks used for transport and logistics across Lebanon.',
+                desc: 'Light and heavy-duty trucks.',
               },
               {
                 label: 'Heavy Machinery',
                 icon: '🏗️',
-                desc: 'Excavators, cranes and industrial machines working on demanding job sites.',
+                desc: 'Excavators, cranes and machines.',
               },
               {
                 label: 'Buses',
                 icon: '🚌',
-                desc: 'Passenger buses and coaches where safety and visibility are critical.',
+                desc: 'Passenger buses and coaches.',
               },
               {
                 label: 'Boats & Yachts',
                 icon: '⛵',
-                desc: 'Marine vessels that need specialized glass for coastal and offshore conditions.',
+                desc: 'Marine and coastal vessels.',
               },
             ].map((item, index) => (
               <div
@@ -260,7 +260,7 @@ export default function Services() {
                   <div className="font-semibold text-base text-center transition-opacity duration-200 group-hover:opacity-0">
                     {item.label}
                   </div>
-                  <p className="absolute inset-x-2 text-xs md:text-sm leading-snug text-[#fae633] font-semibold tracking-wide text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                  <p className="absolute inset-x-4 text-[11px] md:text-xs leading-snug text-[#fae633] font-semibold tracking-wide text-center opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                     {item.desc}
                   </p>
                 </div>
