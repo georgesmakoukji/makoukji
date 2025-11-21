@@ -137,24 +137,6 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Services Description */}
-      <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
-        <div className="bg-gray-50 rounded-lg p-12 md:p-16 border border-gray-200">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                <strong className="text-[#fae633]">Ets. Georges Makoukji for autoglass</strong> is specialized in the area of autoglass (windshields, backlights, side windows and quarters) for all vehicle brands from the smallest car to the biggest truck or bus, in addition to yachts.
-              </p>
-            </div>
-            <div className="p-8 bg-white rounded-lg border border-gray-200">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                We have a trained team that uses the most important products in the market today to help you solve all the problems that you encounter with your autoglass.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
