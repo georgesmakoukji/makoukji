@@ -180,7 +180,9 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
             <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 shadow-sm">
               <p className="text-lg text-gray-700 leading-relaxed">
-                Ets. Georges Makoukji for autoglass is specialized in the area of autoglass (windshields, backlights, side windows and quarters) for all vehicle brands from the smallest car to the biggest truck or bus, in addition to yachts.
+                Ets. Georges Makoukji for autoglass is specialized in the area of autoglass for{' '}
+                <strong>windshields, backlights, door glass, side windows and roof glass</strong>{' '}
+                for all vehicle brands from the smallest car to the biggest truck or bus, in addition to yachts.
               </p>
             </div>
             <div className="p-8 bg-gray-50 rounded-xl border border-gray-200 shadow-sm">
@@ -191,7 +193,7 @@ export default function About() {
           </div>
           <div className="mt-4 p-8 md:p-10 bg-[#fae633] rounded-2xl text-gray-900 text-center shadow-lg">
             <p className="text-lg md:text-xl leading-relaxed font-medium">
-              Ets. Georges Makoukji for autoglass offers a wide variety of window and windshield rubber for all vehicles, in addition to mirrors and plexiglas.
+              Ets. Georges Makoukji for autoglass offers a wide variety of rubber and accessories for windshields, backlights, door glass, side windows and roof glass for all vehicles, in addition to mirrors and plexiglas.
             </p>
           </div>
         </div>
