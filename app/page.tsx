@@ -152,7 +152,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6 mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6 mb-8">
             {[
               'CARS',
               'SUPER CARS',
@@ -171,8 +171,8 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="bg-[#fae633] rounded-2xl p-8 sm:p-10 text-center text-white shadow-lg">
-            <p className="text-lg sm:text-xl mb-6">
+          <div className="bg-[#fae633] rounded-2xl px-8 sm:px-10 py-10 sm:py-12 text-center text-gray-900 shadow-lg mt-8 sm:mt-10">
+            <p className="text-lg sm:text-xl mb-6 font-medium">
               Not sure which category your vehicle fits in? Contact us and we&apos;ll guide you to the right glass replacement.
             </p>
             <Link
@@ -187,7 +187,7 @@ export default function Home() {
 
       {/* Find Us - Dora Trade Center */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
               Find Us in Dora
@@ -198,6 +198,16 @@ export default function Home() {
             <p className="text-lg text-gray-600">
               Visit us directly or contact us first for availability and a quick quote. We handle windshields, backlights, door and side glass, roof glass, and more.
             </p>
+            <div className="mt-6">
+              <a
+                href="https://www.google.com/maps?q=33.89542024416916,35.546435767802386"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-[#fae633] text-black rounded-md font-semibold hover:bg-[#d4c82a] transition-colors duration-200 btn-lift"
+              >
+                Get Directions
+              </a>
+            </div>
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl border border-gray-200">
             <iframe
