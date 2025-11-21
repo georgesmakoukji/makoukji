@@ -36,7 +36,7 @@ export default function About() {
 
       {/* Main Story Section */}
       <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid grid-cols-1 gap-12 items-center mb-16">
           {/* Content */}
           <div className="space-y-6">
             <div className="inline-block px-4 py-2 bg-[#fae633] text-white rounded-md text-sm font-semibold">
@@ -55,32 +55,6 @@ export default function About() {
             </div>
           </div>
 
-          {/* Visual */}
-          <div className="relative h-[360px] md:h-[420px] rounded-3xl overflow-hidden bg-gradient-to-br from-[#fae633] via-[#fae633] to-[#d4c82a] shadow-[0_24px_80px_rgba(0,0,0,0.25)]">
-            {/* soft light spots */}
-            <div
-              className="absolute inset-0 opacity-40"
-              style={{
-                background: `
-                  radial-gradient(circle at 20% 20%, rgba(255,255,255,0.35) 0%, transparent 55%),
-                  radial-gradient(circle at 80% 70%, rgba(255,255,255,0.25) 0%, transparent 55%)
-                `,
-              }}
-            />
-            <div className="relative h-full flex flex-col items-center justify-center text-center text-white space-y-6 px-6">
-              <div className="w-40 h-40 md:w-48 md:h-48 rounded-full bg-gradient-to-br from-[#fff7bf] to-[#f4d93f] shadow-[0_18px_40px_rgba(0,0,0,0.28)] flex items-center justify-center">
-                <span className="text-4xl md:text-5xl font-extrabold drop-shadow-[0_4px_10px_rgba(0,0,0,0.35)]">
-                  1964
-                </span>
-              </div>
-              <p className="text-2xl md:text-3xl font-bold tracking-wide">
-                Over 60 Years
-              </p>
-              <p className="text-base md:text-lg text-white/90 tracking-wide">
-                of Excellence
-              </p>
-            </div>
-          </div>
         </div>
 
         {/* Mission Card */}
