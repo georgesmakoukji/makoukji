@@ -148,7 +148,7 @@ export default function Home() {
               Comprehensive Autoglass Solutions
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We replace glass for cars, super cars, trucks, heavy machinery, and buses.
+              We provide autoglass services for all vehicle types.
             </p>
           </div>
 
