@@ -133,7 +133,7 @@ export default function Navbar() {
                 className="block w-full text-center px-6 py-3 bg-black text-white rounded-md font-semibold hover:bg-gray-900 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Get Free Quote
+                Get a Free Quote
               </Link>
             </div>
           </div>
