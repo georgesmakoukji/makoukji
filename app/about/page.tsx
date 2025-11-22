@@ -9,12 +9,12 @@ export default function About() {
   return (
     <article className="min-h-screen pt-24 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
       {/* Hero Section */}
-      <section className="py-20 mb-20 border-b border-gray-200 safe-x-pad">
+      <section className="py-12 md:py-20 mb-20 border-b border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block mb-6 px-6 py-3 bg-[#fae633] text-gray-900 rounded-md text-base md:text-lg font-semibold">
             ABOUT US
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 text-gray-900">
             Lebanon's Most Renowned Auto Glass Company
           </h1>
           <div className="flex flex-col sm:flex-wrap sm:flex-row justify-center gap-3 sm:gap-4 mb-8">
@@ -42,21 +42,21 @@ export default function About() {
             <div className="inline-block px-6 py-3 bg-[#fae633] text-gray-900 rounded-md text-base md:text-lg font-semibold">
               OUR LEGACY
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
+            <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
               A Legacy of Excellence Since 1964
             </h2>
             <div className="prose prose-lg max-w-none">
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed line-clamp-3 md:line-clamp-none">
                 <strong className="text-[#fae633]">Ets. Georges Makoukji for autoglass</strong> was first founded in <strong className="text-gray-900">1964</strong> by Mr. Georges Makoukji on Dora highway towards the city of Beirut. We have successfully navigated all challenges and obstacles in Lebanon over the past six decades, establishing ourselves as the country's most trusted and renowned autoglass company, working closely with most major insurance companies in Lebanon.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed line-clamp-3 md:line-clamp-none">
                 In the beginning of the 21st century, the present Owner and General Manager Mr. Joseph Makoukji expanded the business into a newer and bigger operation by adding a new branch and a <strong className="text-[#fae633]">1500 square meters warehouse</strong>, ensuring we maintain the most comprehensive inventory of autoglass in Lebanon.
               </p>
             </div>
           </div>
 
-          {/* Visual Yellow Box */}
-          <div className="relative h-72 sm:h-80 md:h-96 rounded-3xl overflow-hidden shadow-[0_24px_70px_rgba(0,0,0,0.18)] bg-gradient-to-br from-[#fae633] via-[#fae633] to-[#d4c82a]">
+          {/* Visual Yellow Box (hidden on small screens to declutter) */}
+          <div className="relative hidden md:block h-72 sm:h-80 md:h-96 rounded-3xl overflow-hidden shadow-[0_24px_70px_rgba(0,0,0,0.18)] bg-gradient-to-br from-[#fae633] via-[#fae633] to-[#d4c82a]">
             {/* soft light */}
             <div
               className="absolute inset-0 opacity-40"
@@ -100,7 +100,7 @@ export default function About() {
               <div className="inline-block px-6 py-3 bg-[#fae633] rounded-md mb-6 text-base md:text-lg font-semibold">
                 OUR COMMITMENT
               </div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">
                 Quality & Excellence
               </h2>
             </div>
@@ -177,12 +177,12 @@ export default function About() {
 
       {/* Expertise Section */}
       <section className="max-w-7xl mx-auto mb-28 safe-x-pad">
-        <div className="bg-white rounded-3xl p-12 md:p-20 border border-gray-200 shadow-lg">
+        <div className="bg-white rounded-3xl p-10 md:p-20 border border-gray-200 shadow-lg">
           <div className="text-center mb-12">
             <div className="inline-block px-6 py-2.5 bg-[#fae633] text-gray-900 rounded-full mb-6 text-sm md:text-base font-semibold tracking-[0.18em] uppercase">
               Our Expertise
             </div>
-            <h2 className="text-5xl md:text-6xl font-bold mb-5 text-gray-900">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-5 text-gray-900">
               Specialized Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">

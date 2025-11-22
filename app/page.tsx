@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <article className="min-h-screen bg-white">
       {/* Hero Section - Professional */}
-      <section className="relative pt-40 pb-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white gpu-transform safe-x-pad">
+      <section className="relative pt-28 pb-16 md:pt-40 md:pb-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white gpu-transform safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
@@ -15,12 +15,12 @@ export default function Home() {
                 ESTABLISHED 1964 • LEBANON'S MOST RENOWNED AUTO GLASS COMPANY
               </div>
               
-              <h1 className="text-5xl md:text-6xl lg:text-[4.75rem] xl:text-[5.25rem] font-extrabold leading-tight text-gray-900">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-[4.75rem] xl:text-[5.25rem] font-extrabold leading-tight text-gray-900">
                 Lebanon's Trusted Auto Glass Experts
                 <span className="block text-[#fae633] mt-4 text-2xl md:text-3xl lg:text-4xl">Since 1964</span>
               </h1>
               
-              <p className="text-xl md:text-2xl lg:text-[1.45rem] text-gray-600 leading-relaxed max-w-2xl">
+              <p className="text-xl md:text-2xl lg:text-[1.45rem] text-gray-600 leading-relaxed max-w-2xl line-clamp-3 md:line-clamp-none">
                 With over <strong className="text-[#fae633]">60 years of experience</strong>, we are Lebanon's most renowned autoglass company. We maintain the most comprehensive inventory of car glass in the region, ensuring we have what you need when you need it.
               </p>
 
@@ -47,7 +47,7 @@ export default function Home() {
       </section>
 
       {/* Trust Indicators */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-y border-gray-200 safe-x-pad">
+      <section className="py-10 md:py-16 px-4 sm:px-6 lg:px-8 bg-white border-y border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             {[
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - Professional */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
+      <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -127,7 +127,7 @@ export default function Home() {
       </section>
 
       {/* Insurance Partners */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
+      <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
@@ -165,7 +165,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials - Trusted by Drivers in Lebanon */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white safe-x-pad">
+      <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-white safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -180,7 +180,7 @@ export default function Home() {
       </section>
 
       {/* Vehicle Types We Serve */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white safe-x-pad">
+      <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-white safe-x-pad">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -191,7 +191,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 md:gap-6 mb-10 sm:mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 md:gap-6 mb-10 sm:mb-12">
             {[
               'CARS',
               'SUPER CARS',
@@ -225,7 +225,7 @@ export default function Home() {
       </section>
 
       {/* Find Us - Dora Trade Center */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
+      <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 safe-x-pad">
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
@@ -263,7 +263,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section - Professional */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white safe-x-pad">
+      <section className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-900 text-white safe-x-pad">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Get Started?

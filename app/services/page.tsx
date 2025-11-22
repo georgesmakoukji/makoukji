@@ -171,12 +171,12 @@ export default function Services() {
   return (
     <article className="min-h-screen pt-24 pb-24 px-4 sm:px-6 lg:px-8 bg-white">
       {/* Hero Section */}
-      <section className="py-20 mb-20 border-b border-gray-200 safe-x-pad">
+      <section className="py-12 md:py-20 mb-20 border-b border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block mb-6 px-6 py-3 bg-[#fae633] text-gray-900 rounded-md text-base md:text-lg font-semibold">
             OUR SERVICES
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 text-gray-900">
             Comprehensive Autoglass Solutions
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -187,7 +187,7 @@ export default function Services() {
 
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 items-stretch">
           {glassServices.map((service, index) => (
             <div
               key={index}
@@ -196,10 +196,10 @@ export default function Services() {
               <div className="w-16 h-16 bg-[#fae633] rounded-lg flex items-center justify-center mb-6 text-white">
                 {service.icon}
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-gray-900">
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">
                 {service.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed flex-1">
+              <p className="text-gray-600 leading-relaxed flex-1 line-clamp-3 md:line-clamp-none">
                 {service.description}
               </p>
             </div>
@@ -209,7 +209,7 @@ export default function Services() {
 
       {/* Coverage Section */}
       <section className="max-w-7xl mx-auto mb-20 safe-x-pad">
-        <div className="bg-gray-900 rounded-lg p-12 md:p-16 text-white shadow-xl">
+        <div className="bg-gray-900 rounded-lg p-8 md:p-16 text-white shadow-xl">
           <div className="text-center mb-12">
             <div className="inline-block px-6 py-3 bg-[#fae633] rounded-md mb-6 text-base md:text-lg font-semibold">
               OUR COVERAGE
@@ -221,7 +221,7 @@ export default function Services() {
               From super cars to heavy machinery, buses and boats, we provide comprehensive autoglass solutions for every vehicle category.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 md:gap-6">
             {[
               {
                 label: 'Super Cars',

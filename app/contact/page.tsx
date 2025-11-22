@@ -53,12 +53,12 @@ export default function Contact() {
   return (
     <article className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-white">
       {/* Hero Section */}
-      <section className="py-20 mb-16 border-b border-gray-200 safe-x-pad">
+      <section className="py-12 md:py-20 mb-16 border-b border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block mb-6 px-6 py-3 bg-[#fae633] text-gray-900 rounded-md text-base md:text-lg font-semibold">
             CONTACT US
           </div>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-gray-900">
             Get In Touch
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">

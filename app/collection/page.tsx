@@ -7,12 +7,12 @@ export default function Collection() {
     <article className="min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Hero Section */}
-        <section className="py-16 mb-16 border-b border-gray-200">
+        <section className="py-10 md:py-16 mb-16 border-b border-gray-200">
           <div className="text-center">
             <div className="inline-block mb-6 px-6 py-3 bg-[#fae633] text-gray-900 rounded-md text-base md:text-lg font-semibold">
               SPECIAL COLLECTION
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 text-gray-900">
               Special & Very Rare Glasses
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -23,10 +23,10 @@ export default function Collection() {
 
         {/* Coming Soon Card */}
         <section className="max-w-5xl mx-auto mb-20">
-          <div className="bg-white rounded-lg p-12 md:p-20 border-2 border-gray-300 shadow-lg">
+          <div className="bg-white rounded-lg p-8 md:p-20 border-2 border-gray-300 shadow-lg">
             <div className="text-center space-y-8">
-              {/* Icon */}
-              <div className="flex justify-center mb-8">
+              {/* Icon - decorative, hidden on small screens */}
+              <div className="hidden md:flex justify-center mb-8">
                 <div className="w-32 h-32 bg-[#fae633] rounded-full flex items-center justify-center shadow-lg">
                   <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
@@ -35,7 +35,7 @@ export default function Collection() {
               </div>
 
               {/* Main Message */}
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
                 Coming Soon
               </h2>
               
@@ -86,7 +86,7 @@ export default function Collection() {
 
         {/* Additional Info Section */}
         <section className="max-w-4xl mx-auto">
-          <div className="bg-gray-50 rounded-lg p-12 md:p-16 border border-gray-200">
+          <div className="bg-gray-50 rounded-lg p-8 md:p-16 border border-gray-200">
             <h3 className="text-3xl font-bold text-gray-900 mb-6 text-center">About Our Collection</h3>
             <p className="text-lg text-gray-700 leading-relaxed text-center">
               At Ets. Georges Makoukji, we understand the unique needs of collection car owners. Our special collection section will feature rare and hard-to-find autoglass pieces for classic and vintage vehicles. We're working hard to bring you the best selection of authentic parts for your prized collection.

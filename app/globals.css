@@ -371,3 +371,19 @@ body {
   animation: testimonial-swipe-in 0.6s ease-out;
 }
 
+/* Line clamp utility for mobile text truncation */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .md\:line-clamp-none {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    display: block;
+  }
+}
+
