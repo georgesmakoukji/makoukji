@@ -11,7 +11,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="text-gray-900 space-y-12">
-              <div className="inline-block px-6 py-3 bg-[#fae633] text-white rounded-md text-lg font-semibold tracking-wide shadow-md">
+              <div className="inline-block px-6 py-3 bg-[#fae633] text-gray-900 rounded-md text-lg font-semibold tracking-wide shadow-md">
                 ESTABLISHED 1964 • LEBANON'S MOST RENOWNED AUTO GLASS COMPANY
               </div>
               
@@ -29,7 +29,7 @@ export default function Home() {
                   href="/contact"
                   className="px-9 py-3.5 bg-[#fae633] text-black rounded-md font-semibold text-xl hover:bg-[#d4c82a] transition-colors duration-200 shadow-lg btn-lift"
                 >
-                  Get Free Quote
+                  Get a Free Quote
                 </Link>
                 <Link
                   href="/services"
