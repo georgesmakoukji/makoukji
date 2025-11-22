@@ -20,7 +20,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed text-lg">
-              Ets. Georges Makoukji for autoglass - Founded in <strong className="text-white">1964</strong>. Lebanon's most renowned autoglass company with over 60 years of excellence.
+              Ets. Georges Makoukji for autoglass - Founded in <strong className="text-white">1964</strong>. Lebanon's best-known autoglass company with over 60 years of excellence.
             </p>
             <div className="flex space-x-4">
               <a 
@@ -135,7 +135,7 @@ export default function Footer() {
               Proudly serving Lebanon since 1964
             </p>
             <p className="text-gray-300 text-sm">
-              Lebanon's most renowned autoglass company
+              Lebanon's best-known autoglass company
             </p>
           </div>
         </div>

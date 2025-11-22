@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'About Us - Makoukji Auto Glass | Lebanon\'s Most Renowned Since 1964',
-  description: 'Ets. Georges Makoukji - Founded in 1964, Lebanon\'s most renowned autoglass company with over 60 years of excellence.',
+  title: 'About Us - Makoukji Auto Glass | Lebanon\'s Best Known Since 1964',
+  description: 'Ets. Georges Makoukji - Founded in 1964, Lebanon\'s best-known autoglass company with over 60 years of excellence.',
 };
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
             ABOUT US
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-            Lebanon's Most Renowned Auto Glass Company
+            Lebanon's Best-Known Auto Glass Company
           </h1>
           <div className="flex flex-col sm:flex-wrap sm:flex-row justify-center gap-3 sm:gap-4 mb-8">
             <div className="w-full sm:w-auto text-center px-6 py-3 bg-[#fae633] text-white rounded-md font-semibold text-sm sm:text-base shadow-md">
@@ -47,7 +47,7 @@ export default function About() {
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                <strong className="text-[#fae633]">Ets. Georges Makoukji for autoglass</strong> was first founded in <strong className="text-gray-900">1964</strong> by Mr. Georges Makoukji on Dora highway towards the city of Beirut. We have successfully navigated all challenges and obstacles in Lebanon over the past six decades, establishing ourselves as the country's most trusted and renowned autoglass company, working closely with most major insurance companies in Lebanon.
+                <strong className="text-[#fae633]">Ets. Georges Makoukji for autoglass</strong> was first founded in <strong className="text-gray-900">1964</strong> by Mr. Georges Makoukji on Dora highway towards the city of Beirut. We have successfully navigated all challenges and obstacles in Lebanon over the past six decades, establishing ourselves as the country's most trusted and best-known autoglass company, working closely with most major insurance companies in Lebanon.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 In the beginning of the 21st century, the present Owner and General Manager Mr. Joseph Makoukji expanded the business into a newer and bigger operation by adding a new branch and a <strong className="text-[#fae633]">1500 square meters warehouse</strong>, ensuring we maintain the most comprehensive inventory of autoglass in Lebanon.
@@ -80,7 +80,7 @@ export default function About() {
                   Years of Excellence
                 </p>
                 <p className="text-sm md:text-base text-white/90">
-                  Lebanon&apos;s most renowned auto glass company
+                  Lebanon&apos;s best-known auto glass company
                 </p>
               </div>
               <div className="mt-2 flex w-full max-w-xs justify-center gap-2">
@@ -143,7 +143,7 @@ export default function About() {
       <section className="max-w-7xl mx-auto mb-24 safe-x-pad">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-            Why We're Lebanon's Most Renowned
+            Why We're Lebanon's Best-Known
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -160,7 +160,7 @@ export default function About() {
             },
             {
               title: 'The Reference',
-              description: 'As Lebanon\'s most renowned autoglass company, we are the trusted reference for all autoglass needs across the country.',
+              description: 'As Lebanon\'s best-known autoglass company, we are the trusted reference for all autoglass needs across the country.',
               gradient: 'from-[#fae633] to-[#d4c82a]',
             },
           ].map((item, index) => (

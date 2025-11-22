@@ -21,7 +21,7 @@ export default function Home() {
               </h1>
               
               <p className="text-xl md:text-2xl lg:text-[1.45rem] text-gray-600 leading-relaxed max-w-2xl">
-                With over <strong className="text-[#fae633]">60 years of experience</strong>, we are Lebanon's most renowned autoglass company. We maintain the most comprehensive inventory of car glass in the region, ensuring we have what you need when you need it.
+                With over <strong className="text-[#fae633]">60 years of experience</strong>, we are Lebanon's most well-known autoglass company. We maintain the most comprehensive inventory of car glass in the region, ensuring we have what you need when you need it.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
