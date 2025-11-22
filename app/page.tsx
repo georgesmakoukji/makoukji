@@ -49,12 +49,13 @@ export default function Home() {
       {/* Trust Indicators */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-y border-gray-200 safe-x-pad">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             {[
               { number: '60+', label: 'Years of Excellence' },
               { number: '1500', label: 'Sq Meters Warehouse' },
               { number: '100%', label: 'Quality Guaranteed' },
               { number: 'All', label: 'Car Glass Types' },
+              { number: 'Most', label: 'Insurance Companies' },
             ].map((stat, index) => (
               <div
                 key={index}
@@ -65,9 +66,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-center text-sm md:text-base text-gray-600">
-            We also work with most major insurance companies in Lebanon to make your autoglass claim as easy as possible.
-          </p>
         </div>
       </section>
 
